@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>Project Monitoring</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{%static 'vendor/bootstrap/css/bootstrap.min.css'%}" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{%static 'assets/css/fontawesome.css'%}">
+    <link rel="stylesheet" href="{%static 'assets/css/templatemo-finance-business.css'%}">
+    <link rel="stylesheet" href="{%static 'assets/css/owl.css'%}">
+<!--
+
+Finance Business TemplateMo
+
+https://templatemo.com/tm-545-finance-business
+
+-->
+      <style>
+          .divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+      </style>
+  </head>
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <div class="sub-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-xs-12">
+            <ul class="left-info">
+
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="right-icons">
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><h2>Project Monitoring</h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="#top">Home
+
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/login">Admin</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/faculty/login">Faculty</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/student/login">Student</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+    <div class="main-banner header-text" id="top">
+        <div class="Modern-Slider">
+          <!-- Item -->
+          <div class="item item-1">
+            <div class="img-fill">
+                <div class="text-content">
+
+
+                  <p>This is an application which can be used to monitor the student project <a href="one-page.html">online</a> is available for connecting with faculty and can share their work stauts.</p>
+                  <a href="#" class="filled-button">Welcome</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+
+
+        </div>
+    </div>
+    <!-- Banner Ends Here -->
+
+    <div class="request-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h4>PROJECT MONITORING</h4>
+            <span></span>
+          </div>
+          <div class="col-md-4">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Admin<em>Login</em></h2>
+              <span></span>
+            </div>
+          </div>
+
+        <section class="vh-100">
+  <div class="container-fluid h-custom">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-md-9 col-lg-6 col-xl-5">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+          class="img-fluid" alt="Sample image">
+      </div>
+      <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+        <form action="/LogAction" method="post">
+
+        {%csrf_token%}
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="text" id="form3Example3" name="username" class="form-control form-control-lg"
+              placeholder="Enter a valid UserName" required/>
+            <label class="form-label" for="form3Example3">UserName</label>
+          </div>
+
+          <!-- Password input -->
+          <div class="form-outline mb-3">
+            <input type="password" id="form3Example4" name="password" class="form-control form-control-lg"
+              placeholder="Enter password"  required/>
+            <label class="form-label" for="form3Example4">Password</label>
+          </div>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- Checkbox -->
+
+          <div class="text-center text-lg-start mt-4 pt-2">
+            <button type="submit" class="btn btn-primary btn-lg"
+              style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+            <p class="small fw-bold mt-2 pt-1 mb-0"></p>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+
+    <!-- Copyright -->
+
+    <!-- Right -->
+
+    <!-- Right -->
+  </div>
+</section>
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="partners">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="owl-partners owl-carousel">
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer Starts Here -->
+
+
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Project Monitoring
+
+            - Design: GKV</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{%static 'vendor/jquery/jquery.min.js'%}"></script>
+    <script src="{%static 'vendor/bootstrap/js/bootstrap.bundle.min.js'%}"></script>
+
+    <!-- Additional Scripts -->
+    <script src="{%static 'assets/js/custom.js'%}"></script>
+    <script src="{%static 'assets/js/owl.js'%}"></script>
+    <script src="{%static 'assets/js/slick.js'%}"></script>
+    <script src="{%static 'assets/js/accordions.js'%}"></script>
+
+    <script language = "text/Javascript">
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+  </body>
+</html>
